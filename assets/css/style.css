@@ -1,0 +1,16 @@
+/*body {
+    background-image: url("https://www.photohdx.com/images/2016/11/vintage-white-textured-paper-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: bottom;
+} */
+
+.navbar-brand{
+    size: 30px;
+}
+
+.btn-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
