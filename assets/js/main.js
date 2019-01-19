@@ -10,11 +10,28 @@ const rootContainer = document.getElementById ("root");
  let result = "";
 
  allData.forEach(element => {
-    if (element.characterName !== '') {
-        result = rootContainer
+    if (element.characterName !== "") {
+        result = rootContainer.innerHTML += `
+        <div>
+        <div class='card'>
+        <div class='box'>
+        <div class='img'>
+        <img src='${element.characterImageFull}'>
+        </div>
+        <h2>${element.characterName}</h2>
+        </div>
+        </div>
+        </div>`
+    }
+});
+return result;    
+}
+window.onload = showData(allData);
+
+
      
- });
+
  
 
-}
+
  
