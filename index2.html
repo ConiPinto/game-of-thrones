@@ -1,88 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GOT</title>
-  <link rel="stylesheet" href="./assets/css/style2.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-</head>
-<body>
-  <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-       <a class="navbar-brand" href="index.html"><img src="assets/img/logo en negro.png" alt="" id="logosize" class="logogot"></a> 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-            <!--   <li class="nav-item active">
-                <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
-              </li> --> 
-              
-              <li class="nav-item">
-                <a class="nav-link" href="" >Capítulos de GOT</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.hbo.com/game-of-thrones" target="_blank">Game of Thrones - Official Website for the HBO Series</a>
-              </li>
-
-              
-              
-              
-                
-  </header>
- 
- <div class="container-fluid">
-  
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Temporadas
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#" >Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>GOT</title>
+      <link rel="stylesheet" href="./assets/css/style2.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html"><img src="assets/img/logo en negro.png" alt="" id="logosize" class="logogot"></a> 
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav">
+         <li class="nav-item">
+            <a class="nav-link" href="" >Capítulos de GOT</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="https://www.hbo.com/game-of-thrones" target="_blank">Game of Thrones - Official Website for the HBO Series</a>
+         </li>
+      </header>
+      <div class="container-fluid">
+         <section class="seasonSelect">
+            <select id="gotseasons"  class="buttonSelect">
+               <option value="0">Temporadas</option>
+               <option value="1">Temporada 1</option>
+               <option value="2">Temporada 2</option>
+               <option value="3">Temporada 3</option>
+               <option value="4">Temporada 4</option>
+               <option value="5">Temporada 5</option>
+               <option value="6">Temporada 6</option>
+               <option value="7">Temporada 7</option>
+               <option value="8">Temporada 8</option>
+            </select>
+         </section>
+         <section id="secondRoot" class="container-fluid"> </section>
+         <!--  <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            </section>
+            </div> --> 
       </div>
-  
-</div>
-  
-  
-  
-
-     <section id="secondRoot" class="container-fluid"> </section> 
- 
-    <!--  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-</section>
-</div> --> 
-</div> 
-
-
-
-<footer class="footer">
-  <div class="row">
-    <div class="col">© 2019 Home Box Office, Inc. All Rights Reserved.
-      This website may contain mature content.
-       </div>
-  </div>
-</footer>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <script src="./assets/data/data.js"></script>
-  <script src="./assets/data/episodes.js"></script>
-  <script src="./assets/js/app.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/main2.js"></script>
-</body>
+      <footer class="footer">
+         <div class="row">
+            <div class="col">© 2019 Home Box Office, Inc. All Rights Reserved.
+               This website may contain mature content.
+            </div>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <script src="./assets/data/data.js"></script>
+      <script src="./assets/data/episodes.js"></script>
+      <script src="./assets/js/app.js"></script>
+      <script src="./assets/js/main.js"></script>
+      <script src="./assets/js/main2.js"></script>
+   </body>
 </html>

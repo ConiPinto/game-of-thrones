@@ -5,7 +5,7 @@ const rootContainer = document.getElementById ("root");
  let result = "";
 
  allData.forEach(element => {
-    if (element.characterName !== "") {
+   if (element.characterName !== "") {
         result = rootContainer.innerHTML += `
         <div>
         <div class='card'>
