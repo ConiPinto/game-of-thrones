@@ -25,3 +25,67 @@ body {
     margin-top: 40px;
     padding: 4%;
   }
+
+  /*.filterselector{
+    width: 200px;
+    height: 40px;
+    background: grey;
+    color:rgb(255, 255, 255);
+    border: 1.5px solid rgb(18, 18, 19);
+    border-radius: 40px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    transition: all 1s ease;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }*/
+
+ 
+
+  .card .box h2 {
+
+   /* font-size: 14px;*/
+    display: inline-block;
+    /*padding: 0.25em 0.6em;*/
+    margin-top: 50px;
+
+  }
+
+
+  .card .box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    width: 400px;
+    height: 300px;
+    margin: 1em;
+    background:#fff;
+    /*box-shadow: 0 10px 20px black;*/
+    text-align: center;
+    align-content: flex-start;
+    border: 2px solid #000000;
+   /* border-radius: 50px; */
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  #secondRoot{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly
+  }
+
+  .dropdown{
+      margin-top: 70px;
+      margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  }

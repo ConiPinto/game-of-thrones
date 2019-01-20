@@ -2,7 +2,7 @@
  const allDataEpisodes = (EPISODES.episodes);
 
  const showDataOfEpisodes = (allDataEpisodes) => {
- let result = "";
+ let resultData = "";
 
  allDataEpisodes.forEach(element => {
     if (element.seasonNum !== "") {
@@ -11,15 +11,15 @@
         <div class='card'>
         <div class='box'>
         <div class='img'>
-        <h1>${element.episodeTitle}</h1>
+        <h2>${element.episodeTitle}</h2>
         </div>
-        <h2>${element.episodeDescription}</h2>
-        <h3>${element.seasonNum}</h3>
+        <p>${element.episodeDescription}</p>
+        <h4>${element.seasonNum}</h4>
         </div>
         </div>
         </div>`
     }
 });
-return result;    
+return resultData;    
 }
 window.onload = showDataOfEpisodes(allDataEpisodes);*/
