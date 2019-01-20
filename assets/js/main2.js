@@ -49,12 +49,25 @@ seasonsSelect.addEventListener("change",() => {
         </div>
         </div>
         </div>`
-      
+      }else{
+      rootContainer2.innerHTML += `
+        <div>
+        <div class='card'>
+        <div class='box'>
+        <div class='img'>
+        <h2>${element.episodeTitle}</h2>
+        </div>
+        <p>${element.episodeDescription}</p>
+        <h4>${element.seasonNum}</h4>
+        </div>
+        </div>
+        </div>`
       }
       })
     });
     ;
     window.onload = showDataOfEpisodes(allDataEpisodes);
+
 
 
     
