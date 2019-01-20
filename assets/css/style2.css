@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/akhayarmedia.com/wp-content/uploads/2018/09/14160348/Grey.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: bottom;
+} 
+
+/*body{
+    background-color: grey;
+}*/
+
+.navbar-brand{
+    size: 30px;
+}
+
+.logogot{
+    width: 150px;
+}
+
+.footer{
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 4%;
+  }

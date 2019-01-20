@@ -1,8 +1,3 @@
-/**
- * 
- * Acá va solo el manejo del DOM
- * 
- */
 const rootContainer = document.getElementById ("root");
  const allData = (DATA.characters);
 
