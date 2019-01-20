@@ -1,4 +1,4 @@
-/*const rootContainer2 = document.getElementById ("secondRoot");
+const rootContainer2 = document.getElementById ("secondRoot");
  const allDataEpisodes = (EPISODES.episodes);
 
  const showDataOfEpisodes = (allDataEpisodes) => {
@@ -22,4 +22,4 @@
 });
 return resultData;    
 }
-window.onload = showDataOfEpisodes(allDataEpisodes);*/
+window.onload = showDataOfEpisodes(allDataEpisodes);
