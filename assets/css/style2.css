@@ -74,3 +74,20 @@ body {
     margin-right: auto;
     margin-bottom: 70px;
 }
+
+.toTheTop {
+    position: fixed; 
+    bottom: 14%; 
+    right: 3%; 
+    border: none; 
+    background-color: #000000; 
+    color: white; 
+    cursor: pointer; 
+    padding: 1.5%; 
+    border-radius: 50%; 
+    font-size: 15px; 
+  }
+ 
+  .toTheTop:hover {
+    background-color: #3a3a3a; 
+  }

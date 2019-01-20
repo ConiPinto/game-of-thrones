@@ -49,8 +49,14 @@ seasonsSelect.addEventListener("change",() => {
         </div>
         </div>
         </div>`
+      
       }
       })
     });
     ;
     window.onload = showDataOfEpisodes(allDataEpisodes);
+
+
+    
+    
+    
