@@ -69,7 +69,7 @@ body {
 }
 
 .seasonSelect{
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
@@ -90,4 +90,10 @@ body {
  
   .toTheTop:hover {
     background-color: #3a3a3a; 
+  }
+
+  h1{
+      text-align: center;
+      padding: 3%;
+     color: #fff;
   }
